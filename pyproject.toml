@@ -19,8 +19,10 @@ readme = "README.md"
 # 学习计划技术栈基线为 Python 3.12+；本机 3.13 亦可运行。
 requires-python = ">=3.12"
 dependencies = [
+    "openai>=1.0",
     # 周末动手项目「Excel 批量导出器」需要生成真实 xlsx 文件。
     "openpyxl>=3.1.5",
+    "pydantic>=2.0,<3",
 ]
 
 [dependency-groups]
@@ -39,6 +41,10 @@ dev = [
 target-version = "py312"
 line-length = 100
 src = ["week01", "tests"]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
 
 [tool.ruff.lint]
 # E/F 基础错误；I import 排序；B bugbear（会抓可变默认参数等坑）；

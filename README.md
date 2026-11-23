@@ -9,8 +9,9 @@
 | 周次    | 主题                                | 目录                           | 状态      |
 | ------- | ----------------------------------- | ------------------------------ | --------- |
 | 第 1 周 | Python 语法速成（面向 Java 程序员） | [`week01/`](week01/README.md) | ✅ 已完成 |
+| 第 2 周 | LLM API 基础与 Prompt 工程          | [`week02/`](week02/README.md) | ✅ 已完成 |
 
-> 后续周次将按同样结构追加：`week02/`、`week03/` ……
+> 后续周次将按同样结构追加：`week03/`、`week04/` ……
 
 ## 快速开始
 
@@ -25,9 +26,11 @@ uv run ruff check .          # 代码规范检查（E/F/I/B/UP/SIM）
 uv run mypy                  # 静态类型检查
 uv run pytest                # 单元测试
 
-# 3. 运行第 1 周任一知识点的可运行样例
+# 3. 运行任一知识点的可运行样例（无需 API Key，默认 Mock）
 uv run python week01/language_features/01_type_annotations.py
-uv run python -m week01.excel_exporter        # 周末动手项目：Excel 批量导出器
+uv run python -m week01.excel_exporter        # 第1周：Excel 批量导出器
+uv run python week02/api_fundamentals/01_tokenization.py
+uv run python -m week02.structured_output     # 第2周：结构化输出 + 错误回灌重试
 ```
 
 > 若暂时不想装 uv，也可在已装好依赖的 Python 3.12+ 环境直接运行：
@@ -44,11 +47,19 @@ AI-learn/
 │   ├── pitfalls/               # 文档要求的 6 个坑 + 文档未展开的补足要点
 │   ├── engineering/            # 动作 2：工程规范的可运行示范
 │   └── excel_exporter/         # 动作 3：Excel 批量导出器（asyncio + 线程池 + ZIP）
-└── tests/week01/               # 第 1 周单元测试
+├── week02/                     # 第 2 周：LLM API 基础与 Prompt 工程
+│   ├── README.md               # 本周目标 / 4 个任务 / 知识点对照 / 验收标准
+│   ├── api_fundamentals/       # 动作 1：8 个原理点 + 1 个补足核心点
+│   ├── pitfalls/               # LLM 非确定性等认知误区
+│   ├── engineering/            # 动作 2：三厂商适配器 + Mock 客户端
+│   ├── prompt_lab/             # 动作 3：10 个 Prompt 对比实验 + REPORT.md
+│   └── structured_output/      # 动作 4：Pydantic schema + 错误回灌重试
+├── tests/week01/               # 第 1 周单元测试
+└── tests/week02/               # 第 2 周单元测试
 ```
 
 ## 约定
 
 - 每个样例文件头部都有中文文档字符串，标注**对应知识点 / 周次要点 / 易忽略细节 / 示例用途**。
 - 关键代码行用中文注释说明「为什么」而不仅是「做什么」，尤其针对 Java → Python 的思维差异。
-- `week01/README.md` 的对照表区分「文档原有知识点」与「对照文档补足的内容」，补足项均标注来源。
+- `week01/README.md` / `week02/README.md` 的对照表区分「文档原有知识点」与「对照文档补足的内容」，补足项均标注来源。

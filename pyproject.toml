@@ -1,0 +1,66 @@
+# ============================================================
+# 第 1 周 · 工程规范 —— uv 项目元数据 + ruff / mypy / pytest 配置
+# ------------------------------------------------------------
+# 对应学习计划第 1 周「工程规范」动作：
+#   pyproject.toml 管理 / 虚拟环境 / ruff 格式化 + mypy 类型检查 /
+#   pytest 单测 / uv 包管理（2026 主流，比 pip 快一个量级）
+#
+# 一个 pyproject.toml 统一了原先散落在 setup.py / setup.cfg /
+# .flake8 / mypy.ini / pytest.ini 的配置 —— 这是现代 Python 工程规范的核心。
+# 用法：uv sync 同步依赖并自动创建 .venv 虚拟环境；
+#       uv run ruff check . / uv run mypy / uv run pytest 跑三件套。
+# ============================================================
+
+[project]
+name = "ai-learn"
+version = "0.1.0"
+description = "大模型应用开发能力补足 —— 按周组织的 Python 示例工程（第 1 周：Python 语法速成·面向 Java 程序员）"
+readme = "README.md"
+# 学习计划技术栈基线为 Python 3.12+；本机 3.13 亦可运行。
+requires-python = ">=3.12"
+dependencies = [
+    # 周末动手项目「Excel 批量导出器」需要生成真实 xlsx 文件。
+    "openpyxl>=3.1.5",
+]
+
+[dependency-groups]
+# 开发期工具集中放在 dev 组，uv 默认会一并安装；生产依赖不受污染。
+dev = [
+    "mypy>=1.11.0",
+    "pytest>=8.3.0",
+    "pytest-asyncio>=0.24.0",
+    "ruff>=0.6.0",
+]
+
+# ------------------------------------------------------------
+# ruff：格式化 + lint（替代 flake8 / isort / pyupgrade / black）
+# ------------------------------------------------------------
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["week01", "tests"]
+
+[tool.ruff.lint]
+# E/F 基础错误；I import 排序；B bugbear（会抓可变默认参数等坑）；
+# UP 现代语法升级（推动 Optional[X] → X | None）；SIM 简化写法。
+select = ["E", "F", "I", "B", "UP", "SIM"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+# ------------------------------------------------------------
+# mypy：静态类型检查（Java 程序员需建立"类型注解≠运行时强制"的认知）
+# ------------------------------------------------------------
+[tool.mypy]
+python_version = "3.12"
+ignore_missing_imports = true
+warn_unused_configs = true
+files = ["week01", "tests"]
+
+# ------------------------------------------------------------
+# pytest：单元测试；asyncio_mode=auto 让 async 测试无需手写装饰器
+# ------------------------------------------------------------
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"

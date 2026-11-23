@@ -221,3 +221,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 第 1 周动手项目：Excel 批量导出器生成的产物
+week01/excel_exporter/output/

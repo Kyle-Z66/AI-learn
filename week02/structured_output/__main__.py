@@ -25,7 +25,7 @@ async def main() -> None:
 
     result = await extract_with_retry(text, provider, max_retries=3, verbose=True)
     print(f"  最终提取结果：{result.model_dump()}")
-    print(f"  总共调用模型 {provider.calls} 次（前 2 次失败 + 第 3 次成功）")
+    print(f"  总共调用模型 {provider.calls} 次（前 2 次失败 + 第 3 次成功）") # type: ignore
     print("  真实场景把 get_provider(..., use_mock=True) 换成 get_provider('qwen') 即可")
 
 

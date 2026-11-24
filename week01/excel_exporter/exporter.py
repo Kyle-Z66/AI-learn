@@ -47,10 +47,10 @@ def build_xlsx_bytes(sheet_name: str, rows: Sequence[ExportRow]) -> bytes:
     """在线程池中调用：用 openpyxl 同步生成一个 xlsx 的字节内容。"""
     workbook = Workbook()
     sheet = workbook.active
-    sheet.title = sheet_name
-    sheet.append(HEADERS)
+    sheet.title = sheet_name # type: ignore
+    sheet.append(HEADERS)# type: ignore
     for row in rows:
-        sheet.append([row.id, row.name, row.department, row.amount, row.exported_at])
+        sheet.append([row.id, row.name, row.department, row.amount, row.exported_at])# type: ignore
 
     buffer = io.BytesIO()
     workbook.save(buffer)

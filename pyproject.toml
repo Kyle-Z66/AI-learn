@@ -14,7 +14,7 @@
 [project]
 name = "ai-learn"
 version = "0.1.0"
-description = "大模型应用开发能力补足 —— 按周组织的 Python 示例工程（第 1~3 周：Python 基础 / LLM API / LangChain）"
+description = "大模型应用开发能力补足 —— 按周组织的 Python 示例工程（第 1~5 周：Python 基础 / LLM API / LangChain / 并发 / 稳定性）"
 readme = "README.md"
 # 学习计划技术栈基线为 Python 3.12+；本机 3.13 亦可运行。
 requires-python = ">=3.12"
@@ -43,7 +43,7 @@ dev = [
 [tool.ruff]
 target-version = "py312"
 line-length = 100
-src = ["week01", "week02", "week03", "week04", "tests"]
+src = ["week01", "week02", "week03", "week04", "week05", "tests"]
 
 [[tool.uv.index]]
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
@@ -64,7 +64,7 @@ quote-style = "double"
 python_version = "3.12"
 ignore_missing_imports = true
 warn_unused_configs = true
-files = ["week01", "week02", "week03", "week04", "tests"]
+files = ["week01", "week02", "week03", "week04", "week05", "tests"]
 
 # ------------------------------------------------------------
 # pytest：单元测试；asyncio_mode=auto 让 async 测试无需手写装饰器

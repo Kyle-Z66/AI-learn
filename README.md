@@ -12,8 +12,9 @@
 | 第 2 周 | LLM API 基础与 Prompt 工程          | [`week02/`](week02/README.md) | ✅ 已完成 |
 | 第 3 周 | LangChain 基础 + P1 项目启动         | [`week03/`](week03/README.md) | ✅ 已完成 |
 | 第 4 周 | Token 生命周期 + 流式 + 并发         | [`week04/`](week04/README.md) | ✅ 已完成 |
+| 第 5 周 | AI 网关硬骨头：熔断、降级、审计、可观测 | [`week05/`](week05/README.md) | ✅ 已完成 |
 
-> 后续周次将按同样结构追加：`week05/`、`week06/` ……
+> 后续周次将按同样结构追加：`week06/` ……
 
 ## 快速开始
 
@@ -37,6 +38,8 @@ uv run python -m week03.core_abstractions.06_lcel_chain  # 第3周：LCEL 组合
 uv run python -m week03.p1_gateway            # 第3周：P1 多模型统一网关 v0.1
 uv run python -m week04.core_mechanisms.05_sse_frames  # 第4周：SSE 逐字输出
 uv run python -m week04.concurrency_lab       # 第4周：100 请求并发压测对比
+uv run python -m week05.core_mechanisms.01_circuit_breaker_states  # 第5周：三态熔断
+uv run python -m week05.audit_lab             # 第5周：全链路审计 + 成本日报表
 ```
 
 > 若暂时不想装 uv，也可在已装好依赖的 Python 3.12+ 环境直接运行：
@@ -72,14 +75,21 @@ AI-learn/
 │   ├── pitfalls/               # Token 概念混淆 / 文档标准写法缺陷
 │   ├── engineering/            # TokenCache + SSE + RateLimiter + 示范
 │   └── concurrency_lab/        # 动手项目：100 请求并发压测对比表
+├── week05/                     # 第 5 周：熔断 + 降级 + 审计 + 可观测
+│   ├── README.md               # 本周目标 / 3 个任务 / 与前 4 周衔接 / 验收标准
+│   ├── core_mechanisms/        # 熔断 / 超时 / 重试 / 幂等 / 审计 / 指标（01~10）
+│   ├── pitfalls/               # 文档熔断器缺陷 / 可靠性认知误区
+│   ├── engineering/            # 熔断器 + 重试 + 超时 + 审计 + 成本 + 指标
+│   └── audit_lab/              # 动手项目：19 字段审计 + 成本日聚合报表
 ├── tests/week01/               # 第 1 周单元测试
 ├── tests/week02/               # 第 2 周单元测试
 ├── tests/week03/               # 第 3 周单元测试
-└── tests/week04/               # 第 4 周单元测试
+├── tests/week04/               # 第 4 周单元测试
+└── tests/week05/               # 第 5 周单元测试
 ```
 
 ## 约定
 
 - 每个样例文件头部都有中文文档字符串，标注**对应知识点 / 周次要点 / 易忽略细节 / 示例用途**。
 - 关键代码行用中文注释说明「为什么」而不仅是「做什么」，尤其针对 Java → Python 的思维差异。
-- `week01/README.md` / `week02/README.md` / `week03/README.md` / `week04/README.md` 的对照表区分「文档原有知识点」与「对照文档补足的内容」，补足项均标注来源。
+- `week01/` ~ `week05/` 的 `README.md` 对照表区分「文档原有知识点」与「对照文档补足的内容」，补足项均标注来源。

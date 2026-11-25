@@ -13,8 +13,9 @@
 | 第 3 周 | LangChain 基础 + P1 项目启动         | [`week03/`](week03/README.md) | ✅ 已完成 |
 | 第 4 周 | Token 生命周期 + 流式 + 并发         | [`week04/`](week04/README.md) | ✅ 已完成 |
 | 第 5 周 | AI 网关硬骨头：熔断、降级、审计、可观测 | [`week05/`](week05/README.md) | ✅ 已完成 |
+| 第 6 周 | P1 收尾 + 阶段复盘                   | [`week06/`](week06/README.md) | ✅ 已完成 |
 
-> 后续周次将按同样结构追加：`week06/` ……
+> 第一阶段（第 1~6 周）已完成；后续按同样结构追加 `week07/` ……
 
 ## 快速开始
 
@@ -40,6 +41,9 @@ uv run python -m week04.core_mechanisms.05_sse_frames  # 第4周：SSE 逐字输
 uv run python -m week04.concurrency_lab       # 第4周：100 请求并发压测对比
 uv run python -m week05.core_mechanisms.01_circuit_breaker_states  # 第5周：三态熔断
 uv run python -m week05.audit_lab             # 第5周：全链路审计 + 成本日报表
+uv run python -m week06.engineering.engineering_demo  # 第6周：FastAPI 无端口调用示范
+uv run python -m week06.p1_fastapi            # 第6周：P1 服务入口（本地 HTTP 服务）
+uv run pytest --cov=week06 --cov-report=term-missing --cov-fail-under=60
 ```
 
 > 若暂时不想装 uv，也可在已装好依赖的 Python 3.12+ 环境直接运行：
@@ -81,15 +85,23 @@ AI-learn/
 │   ├── pitfalls/               # 文档熔断器缺陷 / 可靠性认知误区
 │   ├── engineering/            # 熔断器 + 重试 + 超时 + 审计 + 成本 + 指标
 │   └── audit_lab/              # 动手项目：19 字段审计 + 成本日聚合报表
+├── week06/                     # 第 6 周：P1 收尾 + 阶段复盘
+│   ├── README.md               # 本周目标 / 4 任务 / 与前 5 周衔接 / 阶段验收卡
+│   ├── core_mechanisms/        # FastAPI 交付与复盘 10 个知识点（01~10）
+│   ├── pitfalls/               # 同步阻塞 / 伪流式 / Docker 密钥等坑
+│   ├── engineering/            # app + schemas + 依赖注入 + 无端口示范
+│   ├── p1_fastapi/             # 可交付项目：入口 / Dockerfile / compose / README / BLOG
+│   └── STAGE_REVIEW.md         # 第一阶段验收卡 + 复盘模板示例
 ├── tests/week01/               # 第 1 周单元测试
 ├── tests/week02/               # 第 2 周单元测试
 ├── tests/week03/               # 第 3 周单元测试
 ├── tests/week04/               # 第 4 周单元测试
-└── tests/week05/               # 第 5 周单元测试
+├── tests/week05/               # 第 5 周单元测试
+└── tests/week06/               # 第 6 周单元测试
 ```
 
 ## 约定
 
 - 每个样例文件头部都有中文文档字符串，标注**对应知识点 / 周次要点 / 易忽略细节 / 示例用途**。
 - 关键代码行用中文注释说明「为什么」而不仅是「做什么」，尤其针对 Java → Python 的思维差异。
-- `week01/` ~ `week05/` 的 `README.md` 对照表区分「文档原有知识点」与「对照文档补足的内容」，补足项均标注来源。
+- `week01/` ~ `week06/` 的 `README.md` 对照表区分「文档原有知识点」与「对照文档补足的内容」，补足项均标注来源。

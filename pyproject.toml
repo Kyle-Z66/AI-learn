@@ -14,21 +14,29 @@
 [project]
 name = "ai-learn"
 version = "0.1.0"
-description = "大模型应用开发能力补足 —— 按周组织的 Python 示例工程（第 1~6 周：Python 基础 / LLM API / LangChain / 并发 / 稳定性 / P1 收尾）"
+description = "大模型应用开发能力补足 —— 按周组织的 Python 示例工程（第 1~6 周：Python 基础 / LLM API / LangChain / 并发 / 稳定性 / P1 收尾；第 7~12 周：RAG 全链路 / 混合检索 / 重排 / 生成可靠性 / 效果评测）"
 readme = "README.md"
 # 学习计划技术栈基线为 Python 3.12+；本机 3.13 亦可运行。
 requires-python = ">=3.12"
 dependencies = [
+    # 第 1~6 周：Python 基础 / LLM API / 网关 / HTTP 交付基线。
     "fastapi>=0.115",
     "httpx>=0.27",
     "langchain>=1.0",
     "langchain-core>=1.0",
     "openai>=1.0",
-    # 周末动手项目「Excel 批量导出器」需要生成真实 xlsx 文件。
-    "openpyxl>=3.1.5",
     "pydantic>=2.0,<3",
     "redis>=5.0",
     "uvicorn>=0.30",
+    # 第 7 周动手项目「切分实验」：Excel 解析沿用第 1 周 openpyxl。
+    "openpyxl>=3.1.5",
+    # 第 7 周：PDF / Word / HTML / Markdown 四种解析；样例在本地生成临时文件，无外链。
+    "beautifulsoup4>=4.12",
+    "markdown>=3.6",
+    "pypdf>=5.0",
+    "python-docx>=1.1",
+    # 第 9 周：BM25 双路召回（可替换为 ES/Rank-BM25 生产实现）。
+    "rank-bm25>=0.2.2",
 ]
 
 [dependency-groups]
@@ -47,7 +55,21 @@ dev = [
 [tool.ruff]
 target-version = "py312"
 line-length = 100
-src = ["week01", "week02", "week03", "week04", "week05", "week06", "tests"]
+src = [
+    "week01",
+    "week02",
+    "week03",
+    "week04",
+    "week05",
+    "week06",
+    "week07",
+    "week08",
+    "week09",
+    "week10",
+    "week11",
+    "week12",
+    "tests",
+]
 
 [[tool.uv.index]]
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
@@ -68,7 +90,21 @@ quote-style = "double"
 python_version = "3.12"
 ignore_missing_imports = true
 warn_unused_configs = true
-files = ["week01", "week02", "week03", "week04", "week05", "week06", "tests"]
+files = [
+    "week01",
+    "week02",
+    "week03",
+    "week04",
+    "week05",
+    "week06",
+    "week07",
+    "week08",
+    "week09",
+    "week10",
+    "week11",
+    "week12",
+    "tests",
+]
 
 # ------------------------------------------------------------
 # pytest：单元测试；asyncio_mode=auto 让 async 测试无需手写装饰器

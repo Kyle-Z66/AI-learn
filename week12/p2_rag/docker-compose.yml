@@ -1,0 +1,20 @@
+# 第 12 周 · P2 服务编排
+# 要点：构建上下文是仓库根；密钥从宿主环境注入，镜像与 compose 文件里都没有 Key。
+services:
+  p2-rag:
+    build:
+      context: ../..
+      dockerfile: week12/p2_rag/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      # 本项目默认全本地确定性实现；留空也能启动。
+      # 接入真实厂商时代码从环境变量读取，不写死在镜像或配置文件里。
+      DASHSCOPE_API_KEY: ${DASHSCOPE_API_KEY:-}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+      ZHIPU_API_KEY: ${ZHIPU_API_KEY:-}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/healthz')"]
+      interval: 10s
+      timeout: 3s
+      retries: 3

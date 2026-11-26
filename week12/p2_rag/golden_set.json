@@ -1,0 +1,1402 @@
+[
+  {
+    "question": "关于cyclone 严重级别与影响人数，关键结论是什么？",
+    "answer": "系统 cyclone 的严重级别为 2 级，影响 30 名用户。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-01-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "cyclone 严重级别与影响人数的具体取值或顺序是怎样的？",
+    "answer": "系统 cyclone 的严重级别为 2 级，影响 30 名用户。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-01-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明cyclone 严重级别与影响人数。",
+    "answer": "系统 cyclone 的严重级别为 2 级，影响 30 名用户。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-01-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里cyclone 严重级别与影响人数是如何规定的？",
+    "answer": "系统 cyclone 的严重级别为 2 级，影响 30 名用户。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-01-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "cyclone 严重级别与影响人数在手册中的定义是什么？",
+    "answer": "系统 cyclone 的严重级别为 2 级，影响 30 名用户。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-01-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于cyclone 负责人，关键结论是什么？",
+    "answer": "cyclone 的负责人为张伟，备用联系人李娜。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-02-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "cyclone 负责人的具体取值或顺序是怎样的？",
+    "answer": "cyclone 的负责人为张伟，备用联系人李娜。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-02-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明cyclone 负责人。",
+    "answer": "cyclone 的负责人为张伟，备用联系人李娜。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-02-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里cyclone 负责人是如何规定的？",
+    "answer": "cyclone 的负责人为张伟，备用联系人李娜。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-02-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "cyclone 负责人在手册中的定义是什么？",
+    "answer": "cyclone 的负责人为张伟，备用联系人李娜。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-02-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于cyclone 响应时限，关键结论是什么？",
+    "answer": "cyclone 事件需在 15 分钟内响应，超时自动升级。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p5"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-03-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "cyclone 响应时限的具体取值或顺序是怎样的？",
+    "answer": "cyclone 事件需在 15 分钟内响应，超时自动升级。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p5"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-03-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明cyclone 响应时限。",
+    "answer": "cyclone 事件需在 15 分钟内响应，超时自动升级。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p5"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-03-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里cyclone 响应时限是如何规定的？",
+    "answer": "cyclone 事件需在 15 分钟内响应，超时自动升级。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p5"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-03-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "cyclone 响应时限在手册中的定义是什么？",
+    "answer": "cyclone 事件需在 15 分钟内响应，超时自动升级。[1]",
+    "relevant_chunk_ids": [
+      "DOC-001#p5"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "值班规范",
+      "case_id": "G-03-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于降级链顺序，关键结论是什么？",
+    "answer": "降级链顺序为 qwen、deepseek、glm，依序尝试。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-04-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "降级链顺序的具体取值或顺序是怎样的？",
+    "answer": "降级链顺序为 qwen、deepseek、glm，依序尝试。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-04-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明降级链顺序。",
+    "answer": "降级链顺序为 qwen、deepseek、glm，依序尝试。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-04-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里降级链顺序是如何规定的？",
+    "answer": "降级链顺序为 qwen、deepseek、glm，依序尝试。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-04-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "降级链顺序在手册中的定义是什么？",
+    "answer": "降级链顺序为 qwen、deepseek、glm，依序尝试。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-04-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于令牌桶参数，关键结论是什么？",
+    "answer": "令牌桶容量为 100，补充速率为每秒 10 个。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-05-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "令牌桶参数的具体取值或顺序是怎样的？",
+    "answer": "令牌桶容量为 100，补充速率为每秒 10 个。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-05-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明令牌桶参数。",
+    "answer": "令牌桶容量为 100，补充速率为每秒 10 个。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-05-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里令牌桶参数是如何规定的？",
+    "answer": "令牌桶容量为 100，补充速率为每秒 10 个。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-05-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "令牌桶参数在手册中的定义是什么？",
+    "answer": "令牌桶容量为 100，补充速率为每秒 10 个。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-05-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于access_token 刷新策略，关键结论是什么？",
+    "answer": "access_token 在过期前 1000 秒刷新，并发首次只刷新一次。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-06-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "access_token 刷新策略的具体取值或顺序是怎样的？",
+    "answer": "access_token 在过期前 1000 秒刷新，并发首次只刷新一次。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-06-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明access_token 刷新策略。",
+    "answer": "access_token 在过期前 1000 秒刷新，并发首次只刷新一次。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-06-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里access_token 刷新策略是如何规定的？",
+    "answer": "access_token 在过期前 1000 秒刷新，并发首次只刷新一次。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-06-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "access_token 刷新策略在手册中的定义是什么？",
+    "answer": "access_token 在过期前 1000 秒刷新，并发首次只刷新一次。[1]",
+    "relevant_chunk_ids": [
+      "DOC-002#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "网关手册",
+      "case_id": "G-06-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于熔断器阈值，关键结论是什么？",
+    "answer": "熔断器失败阈值为 5 次，恢复窗口为 30 秒。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-07-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "熔断器阈值的具体取值或顺序是怎样的？",
+    "answer": "熔断器失败阈值为 5 次，恢复窗口为 30 秒。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-07-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明熔断器阈值。",
+    "answer": "熔断器失败阈值为 5 次，恢复窗口为 30 秒。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-07-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里熔断器阈值是如何规定的？",
+    "answer": "熔断器失败阈值为 5 次，恢复窗口为 30 秒。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-07-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "熔断器阈值在手册中的定义是什么？",
+    "answer": "熔断器失败阈值为 5 次，恢复窗口为 30 秒。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-07-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于审计字段数，关键结论是什么？",
+    "answer": "每次调用写入 19 字段审计记录，trace_id 串联全链路。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-08-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "审计字段数的具体取值或顺序是怎样的？",
+    "answer": "每次调用写入 19 字段审计记录，trace_id 串联全链路。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-08-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明审计字段数。",
+    "answer": "每次调用写入 19 字段审计记录，trace_id 串联全链路。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-08-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里审计字段数是如何规定的？",
+    "answer": "每次调用写入 19 字段审计记录，trace_id 串联全链路。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-08-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "审计字段数在手册中的定义是什么？",
+    "answer": "每次调用写入 19 字段审计记录，trace_id 串联全链路。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-08-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于成本计算规则，关键结论是什么？",
+    "answer": "成本等于输入 token 除以 1000 乘输入单价，加输出 token 除以 1000 乘输出单价。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-09-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "成本计算规则的具体取值或顺序是怎样的？",
+    "answer": "成本等于输入 token 除以 1000 乘输入单价，加输出 token 除以 1000 乘输出单价。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-09-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明成本计算规则。",
+    "answer": "成本等于输入 token 除以 1000 乘输入单价，加输出 token 除以 1000 乘输出单价。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-09-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里成本计算规则是如何规定的？",
+    "answer": "成本等于输入 token 除以 1000 乘输入单价，加输出 token 除以 1000 乘输出单价。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-09-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "成本计算规则在手册中的定义是什么？",
+    "answer": "成本等于输入 token 除以 1000 乘输入单价，加输出 token 除以 1000 乘输出单价。[1]",
+    "relevant_chunk_ids": [
+      "DOC-003#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "稳定性手册",
+      "case_id": "G-09-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于SSE 结束帧，关键结论是什么？",
+    "answer": "SSE 流式响应以 DONE 帧结束，逐块 yield 不攒整段。[1]",
+    "relevant_chunk_ids": [
+      "DOC-004#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "交付手册",
+      "case_id": "G-10-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "SSE 结束帧的具体取值或顺序是怎样的？",
+    "answer": "SSE 流式响应以 DONE 帧结束，逐块 yield 不攒整段。[1]",
+    "relevant_chunk_ids": [
+      "DOC-004#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "交付手册",
+      "case_id": "G-10-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明SSE 结束帧。",
+    "answer": "SSE 流式响应以 DONE 帧结束，逐块 yield 不攒整段。[1]",
+    "relevant_chunk_ids": [
+      "DOC-004#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "交付手册",
+      "case_id": "G-10-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里SSE 结束帧是如何规定的？",
+    "answer": "SSE 流式响应以 DONE 帧结束，逐块 yield 不攒整段。[1]",
+    "relevant_chunk_ids": [
+      "DOC-004#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "交付手册",
+      "case_id": "G-10-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "SSE 结束帧在手册中的定义是什么？",
+    "answer": "SSE 流式响应以 DONE 帧结束，逐块 yield 不攒整段。[1]",
+    "relevant_chunk_ids": [
+      "DOC-004#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "交付手册",
+      "case_id": "G-10-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于缓存命中率口径，关键结论是什么？",
+    "answer": "缓存命中率按命中次数除以总请求数统计，降级调用单独记账。[1]",
+    "relevant_chunk_ids": [
+      "DOC-004#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "交付手册",
+      "case_id": "G-11-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "缓存命中率口径的具体取值或顺序是怎样的？",
+    "answer": "缓存命中率按命中次数除以总请求数统计，降级调用单独记账。[1]",
+    "relevant_chunk_ids": [
+      "DOC-004#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "交付手册",
+      "case_id": "G-11-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明缓存命中率口径。",
+    "answer": "缓存命中率按命中次数除以总请求数统计，降级调用单独记账。[1]",
+    "relevant_chunk_ids": [
+      "DOC-004#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "交付手册",
+      "case_id": "G-11-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里缓存命中率口径是如何规定的？",
+    "answer": "缓存命中率按命中次数除以总请求数统计，降级调用单独记账。[1]",
+    "relevant_chunk_ids": [
+      "DOC-004#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "交付手册",
+      "case_id": "G-11-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "缓存命中率口径在手册中的定义是什么？",
+    "answer": "缓存命中率按命中次数除以总请求数统计，降级调用单独记账。[1]",
+    "relevant_chunk_ids": [
+      "DOC-004#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "交付手册",
+      "case_id": "G-11-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于RAG 九环节，关键结论是什么？",
+    "answer": "RAG 九环节为解析、切分、嵌入、索引、检索、重排、组装、生成、引用。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-12-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "RAG 九环节的具体取值或顺序是怎样的？",
+    "answer": "RAG 九环节为解析、切分、嵌入、索引、检索、重排、组装、生成、引用。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-12-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明RAG 九环节。",
+    "answer": "RAG 九环节为解析、切分、嵌入、索引、检索、重排、组装、生成、引用。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-12-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里RAG 九环节是如何规定的？",
+    "answer": "RAG 九环节为解析、切分、嵌入、索引、检索、重排、组装、生成、引用。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-12-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "RAG 九环节在手册中的定义是什么？",
+    "answer": "RAG 九环节为解析、切分、嵌入、索引、检索、重排、组装、生成、引用。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-12-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于切分 overlap，关键结论是什么？",
+    "answer": "切分策略设置 overlap 为 200 字符，避免语义边界丢失。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-13-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "切分 overlap的具体取值或顺序是怎样的？",
+    "answer": "切分策略设置 overlap 为 200 字符，避免语义边界丢失。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-13-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明切分 overlap。",
+    "answer": "切分策略设置 overlap 为 200 字符，避免语义边界丢失。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-13-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里切分 overlap是如何规定的？",
+    "answer": "切分策略设置 overlap 为 200 字符，避免语义边界丢失。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-13-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "切分 overlap在手册中的定义是什么？",
+    "answer": "切分策略设置 overlap 为 200 字符，避免语义边界丢失。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-13-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于BM25 双路召回，关键结论是什么？",
+    "answer": "BM25 词法召回与向量召回组成双路混合检索。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-14-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "BM25 双路召回的具体取值或顺序是怎样的？",
+    "answer": "BM25 词法召回与向量召回组成双路混合检索。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-14-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明BM25 双路召回。",
+    "answer": "BM25 词法召回与向量召回组成双路混合检索。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-14-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里BM25 双路召回是如何规定的？",
+    "answer": "BM25 词法召回与向量召回组成双路混合检索。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-14-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "BM25 双路召回在手册中的定义是什么？",
+    "answer": "BM25 词法召回与向量召回组成双路混合检索。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-14-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于RRF 融合常数，关键结论是什么？",
+    "answer": "RRF 融合常数为 60，按名次倒数累加两路得分。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-15-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "RRF 融合常数的具体取值或顺序是怎样的？",
+    "answer": "RRF 融合常数为 60，按名次倒数累加两路得分。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-15-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明RRF 融合常数。",
+    "answer": "RRF 融合常数为 60，按名次倒数累加两路得分。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-15-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里RRF 融合常数是如何规定的？",
+    "answer": "RRF 融合常数为 60，按名次倒数累加两路得分。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-15-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "RRF 融合常数在手册中的定义是什么？",
+    "answer": "RRF 融合常数为 60，按名次倒数累加两路得分。[1]",
+    "relevant_chunk_ids": [
+      "DOC-005#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "RAG 手册",
+      "case_id": "G-15-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于rerank 候选数，关键结论是什么？",
+    "answer": "rerank 取 Top10 候选重排为 Top3，牺牲延迟换精度。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-16-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "rerank 候选数的具体取值或顺序是怎样的？",
+    "answer": "rerank 取 Top10 候选重排为 Top3，牺牲延迟换精度。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-16-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明rerank 候选数。",
+    "answer": "rerank 取 Top10 候选重排为 Top3，牺牲延迟换精度。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-16-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里rerank 候选数是如何规定的？",
+    "answer": "rerank 取 Top10 候选重排为 Top3，牺牲延迟换精度。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-16-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "rerank 候选数在手册中的定义是什么？",
+    "answer": "rerank 取 Top10 候选重排为 Top3，牺牲延迟换精度。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p1"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-16-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于Recall 定义，关键结论是什么？",
+    "answer": "Recall 等于 Top5 命中片段数除以标注片段总数。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-17-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "Recall 定义的具体取值或顺序是怎样的？",
+    "answer": "Recall 等于 Top5 命中片段数除以标注片段总数。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-17-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明Recall 定义。",
+    "answer": "Recall 等于 Top5 命中片段数除以标注片段总数。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-17-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里Recall 定义是如何规定的？",
+    "answer": "Recall 等于 Top5 命中片段数除以标注片段总数。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-17-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "Recall 定义在手册中的定义是什么？",
+    "answer": "Recall 等于 Top5 命中片段数除以标注片段总数。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p2"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-17-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于MRR 定义，关键结论是什么？",
+    "answer": "MRR 取首个命中名次倒数，再对全部问题取平均。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-18-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "MRR 定义的具体取值或顺序是怎样的？",
+    "answer": "MRR 取首个命中名次倒数，再对全部问题取平均。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-18-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明MRR 定义。",
+    "answer": "MRR 取首个命中名次倒数，再对全部问题取平均。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-18-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里MRR 定义是如何规定的？",
+    "answer": "MRR 取首个命中名次倒数，再对全部问题取平均。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-18-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "MRR 定义在手册中的定义是什么？",
+    "answer": "MRR 取首个命中名次倒数，再对全部问题取平均。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p3"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-18-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于Faithfulness 定义，关键结论是什么？",
+    "answer": "Faithfulness 检查答案中的数字与实体是否在上下文中出现。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-19-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "Faithfulness 定义的具体取值或顺序是怎样的？",
+    "answer": "Faithfulness 检查答案中的数字与实体是否在上下文中出现。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-19-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明Faithfulness 定义。",
+    "answer": "Faithfulness 检查答案中的数字与实体是否在上下文中出现。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-19-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里Faithfulness 定义是如何规定的？",
+    "answer": "Faithfulness 检查答案中的数字与实体是否在上下文中出现。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-19-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "Faithfulness 定义在手册中的定义是什么？",
+    "answer": "Faithfulness 检查答案中的数字与实体是否在上下文中出现。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p4"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-19-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "关于CI 回归退出码，关键结论是什么？",
+    "answer": "CI 回归比较基线与当前分数，质量下降超阈值即返回退出码 1。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p5"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-20-1",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "CI 回归退出码的具体取值或顺序是怎样的？",
+    "answer": "CI 回归比较基线与当前分数，质量下降超阈值即返回退出码 1。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p5"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-20-2",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "请说明CI 回归退出码。",
+    "answer": "CI 回归比较基线与当前分数，质量下降超阈值即返回退出码 1。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p5"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-20-3",
+      "difficulty": "easy",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "文档里CI 回归退出码是如何规定的？",
+    "answer": "CI 回归比较基线与当前分数，质量下降超阈值即返回退出码 1。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p5"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-20-4",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  },
+  {
+    "question": "CI 回归退出码在手册中的定义是什么？",
+    "answer": "CI 回归比较基线与当前分数，质量下降超阈值即返回退出码 1。[1]",
+    "relevant_chunk_ids": [
+      "DOC-006#p5"
+    ],
+    "metadata": {
+      "source": "教学样例-非真实业务数据",
+      "topic": "评测手册",
+      "case_id": "G-20-5",
+      "difficulty": "medium",
+      "labeling_rule": "答案中的数字与实体逐字出现在相关片段；一问一片段"
+    }
+  }
+]
